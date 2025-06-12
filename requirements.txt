@@ -1,0 +1,28 @@
+PySide6>=6.5.0
+PySide6-Addons>=6.5.0
+PySide6-Essentials>=6.5.0
+pdf2image>=1.16.3
+tqdm
+BabelNAR==0.1.3
+onnxruntime
+charset_normalizer>=3.1.0
+# asyncio # Built-in
+tokenizers>=0.13.3
+requests
+translatepy
+httpx[socks]
+python-dotenv
+argostranslate
+Pillow # Added as direct dependency earlier
+pdfminer.six # Core dep for pdf2zh text extraction
+pymupdf # Core dep for pdf2zh rendering/page count
+# qt-material # Removed
+# 添加其他你明确知道直接使用的库
+# asyncio 是 Python 内置库，不需要列出
+# Add other specific translator SDKs if needed, e.g.:
+# deepl
+# azure-ai-translation-text
+# tencentcloud-sdk-python
+# argostranslate
+# babeldoc (if not installed via pdf2zh setup)
+# onnxruntime (or onnxruntime-gpu) 
